@@ -5,11 +5,6 @@
 
 class EmailParser
   attr_accessor :emails
-  @@all = []
-  
-  def self.all
-    @@all
-  end
 
   def parse(CSV_emails)
     
