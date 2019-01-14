@@ -10,7 +10,6 @@ class EmailParser
     data = []
     data.push(CSV_emails)
     email = self.new
-    
   end
 end
 
