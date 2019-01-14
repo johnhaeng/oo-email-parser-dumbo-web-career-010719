@@ -12,7 +12,7 @@ class EmailParser
   
   def parse
     email_arr = email.split(/[, ]/)
-    
+    email_arr = 
   end
 end
 
