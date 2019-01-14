@@ -7,6 +7,8 @@ class EmailParser
   attr_accessor :emails
 
   def parse(CSV_emails)
+    data = []
+    data.push(CSV_emails)
     
   end
 end
